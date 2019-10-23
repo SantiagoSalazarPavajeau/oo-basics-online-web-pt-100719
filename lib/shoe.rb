@@ -23,12 +23,12 @@ class Book
     @size
   end
  
-  def material=(genre)
-    @genre = genre
+  def material=(material)
+    @material = material
   end
  
-  def genre
-    @genre
+  def material
+    @material
   end
  
   def turn_page

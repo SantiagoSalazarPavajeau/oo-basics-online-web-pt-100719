@@ -30,8 +30,15 @@ class Book
   def material
     @material
   end
+  def condition=(condition)
+    @condition = condition
+  end
  
-  def turn_page
+  def condition
+    @condition
+  end
+ 
+  def cobble
     puts "Flipping the page...wow, you read fast!"
   end
  
